@@ -1,8 +1,49 @@
 
-//Варіант 2
+//Variant - 2
 #include <iostream>
 using namespace std;
+
+//1.
+
+int main()
+{
+	int num;
+	cout << "n= ";
+	cin >> num;
+	for (int i = 1; i <= num; num--)
+	{
+		for (int j = 1; j <= num; j++)
+		{
+			cout << j << " ";
+		}
+		cout << endl;
+
+	}
+	system("pause");
+	return 0;
+
+}
+/*n= 4
+1 2 3 4
+1 2 3
+1 2
+1*/
+
+/*n = 10
+1 2 3 4 5 6 7 8 9 10
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8
+1 2 3 4 5 6 7
+1 2 3 4 5 6
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1*/
+
+
 //2.
+/*
 int main()
 {
 	int count_num;
@@ -31,7 +72,7 @@ int main()
 	}
 	cout << "Max= " << max << endl;
 	cout << "Min= " << min << endl;
-	cout << "Sum of max and min= " << max + min << endl;
+	cout << "Sum of max and min= " << max + min << endl;*/
 
 	/*Enter number of elements : 3
 		Enter an integer : 1
@@ -52,36 +93,4 @@ int main()
 		Min = 1
 		Sum of max and min = 7*/
 
-//1.
-/*int main_()
-{
-	int n;
-	cout << "n= ";
-	cin >> n;
-	if (n < 1)
-	{
-		return false;
-	}
-	for (int i = 1; i <= n; ++i)
-	{
-		for (int j = n; j >= i; --j)
-		{
-			cout << j << " ";
-		}
-		cout << endl;
-	}*/
-	system("pause");
-	return 0;
 
-}
-//n= 4
-//4 3 2 1
-//4 3 2
-//4 3
-//4
-/*n = 5
-5 4 3 2 1
-5 4 3 2
-5 4 3
-5 4
-5*/
