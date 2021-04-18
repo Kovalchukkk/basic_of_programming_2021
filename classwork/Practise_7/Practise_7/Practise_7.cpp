@@ -7,7 +7,7 @@ int main()
 {
 	/*
 	char s[100] = "this is an apple";
-	
+
 	cout << strlen(s) << endl;
 
 	for (int i = 0; i < strlen(s); i++)
@@ -93,17 +93,17 @@ int main()
 	}
 	cout << input << endl;*/
 
-char* input = new char[100];
-cin.getline(input, 100);
+	char* input = new char[100];
+	cin.getline(input, 100);
 
-char a = '+';
-char b = '-';
+	char a = '+';
+	char b = '-';
 
-input = replace(input, a, b);
-cout << input << endl;
+	input = replace(input, a, b);
+	cout << input << endl;
 
-system("pause");
-return 0;
+	system("pause");
+	return 0;
 
 }
 
@@ -131,4 +131,3 @@ char change(char s)
 	return s;
 
 }
-
