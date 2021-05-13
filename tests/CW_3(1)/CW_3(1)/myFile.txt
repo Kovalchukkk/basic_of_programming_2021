@@ -1,0 +1,4 @@
+Kravchenko 10000 Logistical 10
+Samotiy 20000 Cars 5
+White 25000 Shops 15
+Kuzmenko 10000 Shops 15 
